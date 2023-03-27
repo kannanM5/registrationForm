@@ -1,0 +1,20 @@
+.container-fluid {
+  background-color: rgb(232, 174, 67);
+}
+.navbar-brand {
+  letter-spacing: 3px;
+}
+.row h2 span {
+  color: rgb(24, 109, 237);
+}
+
+img {
+  width: 100%;
+  height: 859px;
+  opacity: 1;
+}
+
+.absolute {
+  background-color: white;
+  color: rgb(216, 247, 94);
+}

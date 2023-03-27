@@ -1,0 +1,2 @@
+export const HANDLE_SUBMIT = "HANDLE_SUBMIT";
+export const HANDLE_DELETE = "HANDLE_DELETE"
