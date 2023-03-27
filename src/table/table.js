@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { handle_delete } from "../redux/actionCreater";
-import { useNavigate } from "react-router-dom";
+
 import "./table.css";
 
 const Table = () => {

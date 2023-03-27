@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./main.css";
-import photo from "../main/photo.jpg";
+import logo from "../main/photo.jpg";
 
 function Main() {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ function Main() {
       </div>
       <section>
         <div>
-          <img src={photo} alt="photo" />
+          <img src={logo} alt="logo" />
         </div>
         <div></div>
       </section>
