@@ -16,7 +16,7 @@ const Table = () => {
       <h1>Students Details</h1>
       <div>
         <table className="table table-striped  table-responsive">
-          <thead>
+          <thead className="bg-secondary text-white">
             <tr>
               <th>Name</th>
               <th>Age</th>
