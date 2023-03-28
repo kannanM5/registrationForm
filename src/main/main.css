@@ -3,13 +3,14 @@
 }
 .navbar-brand {
   letter-spacing: 3px;
+  text-shadow: 1px 1px 3px black;
 }
 .row h2 span {
   color: rgb(24, 109, 237);
 }
 
 img {
-  width: 100%;
+  width: 100vw;
   height: 92vh;
   opacity: 1;
 }

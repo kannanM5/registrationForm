@@ -12,7 +12,7 @@ function Main() {
   return (
     <div>
       <div className="container-fluid">
-        <nav class="navbar navbar-orange">
+        <nav class="navbar">
           <span class="navbar-brand ">
             <h2>
               Doodle<span className="text-primary">Blue</span> Academy
