@@ -13,12 +13,13 @@ const reducer = (state = initialState, action) => {
       let word = [...state.data, action.payload];
       return { ...state, data: word };
 
-      case HANDLE_DELETE:
-       let deletedData =  state.data.splice(action.payload,1)
-        let remainingData =  [...state.data]
-        return{
-          ...state,data : remainingData
-        }
+    case HANDLE_DELETE:
+      state.data.splice(action.payload, 1);
+      let remainingData = [...state.data];
+      return {
+        ...state,
+        data: remainingData,
+      };
     default:
       return state;
   }

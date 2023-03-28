@@ -15,7 +15,7 @@ const Table = () => {
     <div className="container">
       <h1>Students Details</h1>
       <div>
-        <table className="table table-bordered table-hover table-responsive">
+        <table className="table table-striped  table-responsive">
           <thead>
             <tr>
               <th>Name</th>
